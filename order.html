@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleisi.css">
+    <title>Order</title>
+</head>
+<body>
+    <header>
+        <a href="beranda.html"><img src="cookie.png" width="100px"></a>
+        <p>Cookie Jar</p>
+    </header>
+    
+    <nav>
+        <a class="satu", href="beranda.html">Home</a>
+        <a class="satu", href="about.html">About Us</a>
+        <a class="satu", href="menu.html">Menu</a>
+        <a class="satu", href="order.html">Order</a>
+        <a class="satu", href="index.html">Logout</a>
+    </nav>
+    <div class="contain">
+      <div class="containers">
+    <div class="formulir">
+    <h2>Order Sekarang</h2>
+    <P>Harap isi form berikut.</P>
+    </div>
+    <div class="order">
+    <form>
+        <label for="name">Name</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="number">Phone Number</label><br>
+        <input type="tel" id="number" name="number" required><br><br>     
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="alamat">Address</label><br>
+        <textarea rows="3" cols="40" id="address" name="alamat" required></textarea><br><br>     
+        <label>Menu</label><br>
+        <input type="checkbox" id="chocolate" name="cookie" value="Chocolate Chip Cookie">
+        <label for="chocolate">Chocolate Chip Cookie (6 pcs)</label><br>
+        <input type="checkbox" id="matcha" name="cookie" value="Matcha Cookie">
+        <label for="matcha">Matcha Cookie (6 pcs)</label><br>
+        <input type="checkbox" id="redvelvet" name="cookie" value="Red Velvet Cookie">
+        <label for="redvelvet">Red Velvet Cookie (6 pcs)</label><br>
+        <input type="checkbox" id="biscoff" name="cookie" value="Biscoff Cookie">
+        <label for="biscoff">Biscoff Cookie (6 pcs)</label><br><br>
+        <label>Packaging</label><br>
+        <input type="radio" id="packs" name="pack" value="Box Package">
+        <label for="box">Box Package</label><br>
+        <input type="radio" id="packs" name="pack" value="Jar Package">
+        <label for="jar">Jar Package</label><br><br>    
+        <label for="deliv">Delivery</label><br>
+        <select id="deliv" ><br>
+          <option value="Pick Up">Pick Up</option>
+          <option value="Courier">Courier</option>
+        </select><br><br>
+        <input type="submit" id="pesan" value="Place Order">
+      </form>
+      </div>
+      </div>
+      </div>
+      <footer>
+        <div class="container">
+          <p>Copyright &copy; 2023 - Cookie Jar</p>
+        </div>
+      </footer>
+      
+</body>
+<script src="order.js"></script>
+</html>
